@@ -1,0 +1,70 @@
+<html>
+<head>
+    	<title>ReproCare</title>
+    <link rel="stylesheet" href="why.css">
+  <link rel="stylesheet" href="style.css">
+  
+ 
+<script>
+function send(form){
+var x=form.urmessage.value;
+if(x==""||x.length<10){
+alert("No message written");}
+else{
+alert("your message is sent");
+window.location.assign("home.html");
+}
+}
+</script>
+
+
+
+</head>
+<body>
+<div class= "start">
+<ul>
+<li><img  src="Reprocare.jpg" class="logo"></li>
+<li><a href="home.html">HOME</A></LI>
+<li><a>SERVICES</A>
+<UL CLASS="DROPDOWN">
+<li><a href="STD.html">STDs</A>
+<li><a href="adolecence.html">Adolescence</A>
+<li><a href="project.html">Pregnancy</A>
+<li><a href="serviceformen.html">For men</A>
+<li><a href="Bse2.html">BSE</A>
+
+<li><a href="contraception.html">contraception</A>
+</UL>
+</LI>
+<li><a href="aboutUS.html">ABOUT US</A></LI>
+<li><a href="login.html">CONTACT US</A></LI>
+
+</div>
+  
+  
+
+
+
+<body bgcolor=#DCE0E7>
+<div class="content_b">
+    				<h2 width="100%">24/7 PROFFESIONAL CONTACT FROM THE COMFORT OF YOUR HOME 
+              <br> <h3 style= "text-align:center;">Send us your comments here </h3>
+            </h2> <br>
+               
+      <div >
+        <form>
+       
+       <div  class="new">
+             <textarea name="urmessage" id="msg" placeholder= " your message here " cols= "100" rows="10" class="form-input"> </textarea><br><br>
+<input type="button" onclick="send(this.form)" value= "SEND" class="form-button"  >
+
+      </div> 
+        </form>
+       </div>
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

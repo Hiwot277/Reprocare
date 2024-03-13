@@ -1,0 +1,127 @@
+body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-size: cover;
+            transition: 3s;
+			background:offwhite;
+
+
+        }
+        fieldset{
+					background-image:url("ReprocareB.jpg");
+				width:550px;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 2px;
+			         box-shadow: 4px 5px 15px #363636;
+height:570px;
+		}
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+			top:10%;
+
+
+        }
+
+/*end of profile image style*/
+      /*pop-up window*/
+       #pop-up{
+         background: skyblue;
+         font-weight: bold;
+         width: 30%;
+         position: relative;
+         top: 25%;
+         margin: 0 auto;
+         text-align: center;
+         border-radius: 0 16px 0 16px;
+         padding: 3%;
+         font-family: monospace;
+         font-size: 18px;
+         display: none;
+         vertical-align: middle;
+         animation: move 2s infinite;
+         box-shadow: 4px 5px 15px #363636;
+        }
+        
+        @keyframes move{
+            0%{transform: translateY(6%);}
+            50%{transform: translateY(-6%);}
+            100%{transform: translateY(6%);}
+        }
+/*form section style*/
+        #form-section{
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 8px;
+        }
+        
+        #form-section .form-container{
+            width:100%;
+            margin: 50px auto;
+
+        }
+        
+        #form-section .form-container p{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        #form-section .form-container a{
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        #form-section .form-container a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .form-input{
+            display: block;
+            margin: 2% auto;
+            padding: 2% 2%;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 4px 5px 15px #363636;
+        }
+        
+        .form-button{
+            margin-left: 70px;
+            margin-top: 60px;
+            padding: 10px 15px;
+            background: #22438C;
+            border-radius: 3px;
+            border: 1px solid #22438C;
+            color: #efefef;
+            font-weight: bold;
+            font-size: 13px;
+            font-family: sans-serif;
+            transition: color .5s , background .5s;
+            box-shadow: 6px 5px 16px #363636;
+        }
+        
+        .form-button:hover{
+            background: #efefef;
+            color: #22438C;
+            border: 1px solid #22438C;
+            cursor: pointer;
+        }      
+		
+		
+		
+		.mar-status
+		{
+			
+			width:100%;
+		}
+		.new{
+			margin-right:35%;
+		}
+/* end of form section style */

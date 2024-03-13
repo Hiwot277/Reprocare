@@ -1,0 +1,79 @@
+C<html>
+<head>
+<title> ReproCare</title> 
+  <link rel="stylesheet" href="why.css">
+  <style>
+	#more{display:none;}
+	</style>
+
+<script>																																
+	
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+	</script>
+
+</head>
+<body>
+<div class= "start">
+<ul>
+<li><img  src="Reprocare.jpg" class="logo"></li>
+<li><a href="home.html">HOME</A></LI>
+<li><a>SERVICES</A>
+<UL CLASS="DROPDOWN">
+<li><a href="STD.html">STDs</A>
+<li><a href="adolecence.html">Adolescence</A>
+<li><a href="project.html">Pregnancy</A>
+<li><a href="serviceformen.html">For men</A>
+<li><a href="Bse2.html">BSE</A>
+
+<li><a href="contraception.html">contraception</A>
+</UL>
+</LI>
+<li><a href="aboutUS.html">ABOUT US</A></LI>
+<li><a href="login.html">CONTACT US</A></LI>
+
+</div>
+  
+  
+
+<body>
+<div class="content_a">
+
+<h1>EMERGENCY PILL</h1>
+The emergency pill, also known as the morning-after pill, <br>
+is a type of birth control used to prevent pregnancy after unprotected sex. <br>
+It is most effective when taken within 72 hours of intercourse,<br>
+ but can be taken up to 120 hours after.<br>
+<span id="dots">...</span> <span id="more">
+<h2>Advantages of the emergency pill include:</h2>
+It can prevent an unintended pregnancy.<br>
+It is easily accessible and available without a prescription.<br>
+It can be taken as soon as possible after intercourse.<br>
+<H2>Disadvantages of the emergency pill include:</h2>
+It can cause side effects like nausea, vomiting, and irregular bleeding.<BR>
+It does not protect against sexually transmitted infections (STIs).<BR>
+It is less effective than other forms of birth control.<BR>
+ <H3 style=" text-align:center">If you have any further questions, feel free to ask!<br>
+ Our professionals are ready to help you</H3>
+<div class="btn-group">
+ <a href="login.html"> <button>PROFESSIONAL CONTACT </button> </a> <br>
+</div>
+  </span></p><BR>
+<button onclick="myFunction()" id= "myBtn"> Read more </button> 
+</div>
+</body>
+</html>
